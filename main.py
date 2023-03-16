@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-#from pandas import pd
-#from numpy import np
+from pandas import pandas
+#from numpy import numpy
 
 app = FastAPI()
     
 #http://127.0.0.1:8000
 @app.get("/")
 def index():
-    return {"mensaje":"Hola,pythones"}
+    return {"mensaje":"Hello word"}
