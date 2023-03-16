@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from pandas import pd
-from numpy import np
+#from pandas import pd
+#from numpy import np
 
 app = FastAPI()
     
